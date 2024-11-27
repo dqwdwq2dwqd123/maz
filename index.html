@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Morning, Maria!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>maz! 🌞</h1>
+
+    <!-- Daily Good Morning Message -->
+    <div class="message">
+      <p id="morning-message">
+        Click the button to reveal your message for today!
+      </p>
+      <button onclick="revealDailyMessage()">Reveal Today’s Message</button>
+    </div>
+
+    <!-- Daily Surprise -->
+    <div class="surprise">
+      <p>Click below to reveal today’s surprise!</p>
+      <button onclick="revealSurprise()">Reveal Surprise</button>
+      <p id="surprise-message" style="display: none">
+        You’re my favorite person in the world! 🥰
+      </p>
+    </div>
+
+    <!-- Reminder Section -->
+    <div class="reminder">
+      <p>🌟 Remember: Take your tummy tablets 30 minutes before a meal! 🌟</p>
+    </div>
+
+    <!-- Background Theme Selection -->
+    <div class="backgrounds">
+      <p>Choose a background theme:</p>
+      <button onclick="setBackground('sunrise')">Sunrise 🌅</button>
+      <button onclick="setBackground('flowers')">Flowers 🌸</button>
+      <button onclick="setBackground('pastel')">Pastel Colors 🎨</button>
+    </div>
+
+    <!-- Biceps and Face Buttons -->
+    <div class="biceps-face">
+      <a href="biceps.html"><button>Click Here for Biceps 💪</button></a>
+      <a href="face.html"><button>Click Here for My Face 😊</button></a>
+    </div>
+
+    <!-- Countdown Timer -->
+    <div>
+      <p>Countdown to our next monthaversary:</p>
+      <p id="countdown"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
